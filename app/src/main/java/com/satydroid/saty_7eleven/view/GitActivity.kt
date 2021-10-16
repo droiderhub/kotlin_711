@@ -18,6 +18,9 @@ class GitActivity : AppCompatActivity() {
 
     private fun rebaseInFeature() {
         Logger.s("rebaseInFeature")
+        Logger.s("rebaseInFeature")
+        Logger.s("rebaseInFeature")
+        Logger.s("rebaseInFeature")
     }
 
     private fun rebaseCodeInMaster() {
