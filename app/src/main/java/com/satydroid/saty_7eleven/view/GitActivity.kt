@@ -10,6 +10,7 @@ class GitActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
         mrSix()
+        mrSeven()
     }
 
     private fun mrSix() {
@@ -20,11 +21,18 @@ class GitActivity : AppCompatActivity() {
         mrFive()
     }
 
+    private fun mrSeven() {
+
+    }
+
     private fun mrFive() {
+        mrThree()
     }
 
     private fun mrThree() {
-
+        mrOne()
+        mrThree()
+        mrFour()
     }
 
     private fun mrFour() {
@@ -37,7 +45,7 @@ class GitActivity : AppCompatActivity() {
         rebaseInFeature()
         rebaseCodeInMaster()
         updateCodeFromFeatureRebase()
-
+        mrTwo()
 
     }
 
