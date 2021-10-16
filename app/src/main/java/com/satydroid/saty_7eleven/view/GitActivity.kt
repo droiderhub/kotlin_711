@@ -9,8 +9,12 @@ class GitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
+        mrNine()
         mrSix()
         mrSeven()
+    }
+
+    private fun mrNine() {
     }
 
     private fun mrSix() {
