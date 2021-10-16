@@ -14,7 +14,12 @@ class GitActivity : AppCompatActivity() {
         rebaseInFeature()
         rebaseCodeInMaster()
         updateCodeFromFeatureRebase()
+        mrTwo()
 
+    }
+
+    private fun mrTwo() {
+        Logger.s("mrTwo")
     }
 
     private fun updateCodeFromFeatureRebase() {
