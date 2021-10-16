@@ -10,6 +10,7 @@ class GitActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
         changeinFeatureBranch()
+        changeInMasterBranch()
 
     }
 
@@ -20,7 +21,7 @@ class GitActivity : AppCompatActivity() {
         newFunInMasterBranch()
         mergerCommit01()
         mergerFromMasterBranch()
-        changeInMasterBranch()
+
     }
 
     private fun changeInMasterBranch() {
