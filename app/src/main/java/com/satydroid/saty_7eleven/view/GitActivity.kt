@@ -9,12 +9,12 @@ class GitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
-        changeinFeatureBranch()
         changeInMasterBranch()
+        changeInFeatureBranch()
 
     }
 
-    private fun changeinFeatureBranch() {
+    private fun changeInFeatureBranch() {
         Logger.s("changeinFeatureBranch")
         gitFirstCommit()
         firstNewBranch()
