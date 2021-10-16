@@ -13,7 +13,6 @@ class GitActivity : AppCompatActivity() {
         changeInFeatureBranch()
         rebaseInFeature()
         rebaseCodeInMaster()
-        rebaseInFeature()
 
     }
 
@@ -25,9 +24,7 @@ class GitActivity : AppCompatActivity() {
         Logger.s("rebaseCodeInMaster")
     }
 
-    private fun rebaseInFeature() {
-        Logger.s("rebaseInFeature")
-    }
+
 
     private fun changeInFeatureBranch() {
         Logger.s("changeinFeatureBranch")
