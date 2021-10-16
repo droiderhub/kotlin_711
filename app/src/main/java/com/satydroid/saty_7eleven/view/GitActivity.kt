@@ -10,6 +10,11 @@ class GitActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
         gitFirstCommit()
+        firstNewBranch()
+    }
+
+    private fun firstNewBranch() {
+        Logger.s("firstNewBranch")
     }
 
     private fun gitFirstCommit() {
