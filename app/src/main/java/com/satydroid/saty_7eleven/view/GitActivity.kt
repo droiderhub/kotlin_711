@@ -11,7 +11,12 @@ class GitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_git)
         changeInMasterBranch()
         changeInFeatureBranch()
+        rebaseCodeInMaster()
 
+    }
+
+    private fun rebaseCodeInMaster() {
+        Logger.s("rebaseCodeInMaster")
     }
 
     private fun changeInFeatureBranch() {
