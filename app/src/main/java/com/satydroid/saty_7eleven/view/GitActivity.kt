@@ -10,6 +10,10 @@ class GitActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
 mrFive()
+mrSeven()
+    }
+
+    private fun mrSeven() {
 
     }
 
