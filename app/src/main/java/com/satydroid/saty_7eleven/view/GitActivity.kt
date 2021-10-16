@@ -11,6 +11,11 @@ class GitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_git)
         gitFirstCommit()
         firstNewBranch()
+        newFunInMasterBranch()
+    }
+
+    private fun newFunInMasterBranch() {
+        Logger.s("newFunInMasterBranch")
     }
 
     private fun firstNewBranch() {
