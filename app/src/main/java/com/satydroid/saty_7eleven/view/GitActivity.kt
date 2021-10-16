@@ -12,6 +12,11 @@ class GitActivity : AppCompatActivity() {
         gitFirstCommit()
         firstNewBranch()
         newFunInMasterBranch()
+        mergerFromMasterBranch()
+    }
+
+    private fun mergerFromMasterBranch() {
+        Logger.s("mergerFromMasterBranch")
     }
 
     private fun newFunInMasterBranch() {
