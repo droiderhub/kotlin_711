@@ -15,6 +15,11 @@ class GitActivity : AppCompatActivity() {
 
     private fun mrThree() {
         mrOne()
+        mrFour()
+    }
+
+    private fun mrFour() {
+        Logger.s("mrFour")
     }
 
     private fun mrOne() {
