@@ -13,7 +13,12 @@ class GitActivity : AppCompatActivity() {
         changeInFeatureBranch()
         rebaseInFeature()
         rebaseCodeInMaster()
+        updateCodeFromFeatureRebase()
 
+    }
+
+    private fun updateCodeFromFeatureRebase() {
+        Logger.s("updateCodeFromFeatureRebase")
     }
 
     private fun rebaseInFeature() {
