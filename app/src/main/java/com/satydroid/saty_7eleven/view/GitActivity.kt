@@ -20,6 +20,11 @@ mrFive()
     private fun mrThree() {
         mrOne()
         mrThree()
+        mrFour()
+    }
+
+    private fun mrFour() {
+        Logger.s("mrFour")
     }
 
     private fun mrOne() {
