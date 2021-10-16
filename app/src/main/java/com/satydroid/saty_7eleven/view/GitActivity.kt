@@ -9,18 +9,22 @@ class GitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_git)
-mrFive()
+        mrSix()
+    }
 
+    private fun mrSix() {
+        mrOne()
+        mrTwo()
+        mrThree()
+        mrFour()
+        mrFive()
     }
 
     private fun mrFive() {
-        mrThree()
     }
 
     private fun mrThree() {
-        mrOne()
-        mrThree()
-        mrFour()
+
     }
 
     private fun mrFour() {
@@ -33,7 +37,7 @@ mrFive()
         rebaseInFeature()
         rebaseCodeInMaster()
         updateCodeFromFeatureRebase()
-        mrTwo()
+
 
     }
 
