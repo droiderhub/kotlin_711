@@ -22,6 +22,9 @@ class GitActivity : AppCompatActivity() {
 
     private fun rebaseCodeInMaster() {
         Logger.s("rebaseCodeInMaster")
+        Logger.s("rebaseCodeInMaster")
+        Logger.s("rebaseCodeInMaster")
+        Logger.s("rebaseCodeInMaster")
     }
 
 
