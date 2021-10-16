@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Saty_7eleven">
         <activity
+            android:name=".view.GitActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ScopeFunctionActivity"
             android:exported="true" />
         <activity
