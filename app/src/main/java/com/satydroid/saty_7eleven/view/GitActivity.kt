@@ -11,7 +11,12 @@ class GitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_git)
         mrEight()
         mrNine()
+        stashChange()
     }
+
+    private fun stashChange() {
+    }
+
     private fun mrNine() {
     }
     private fun mrEight() {
