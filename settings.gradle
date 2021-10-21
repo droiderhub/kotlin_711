@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "saty_7eleven"
 include ':app'
+include ':Toaster'

@@ -2,8 +2,10 @@ package com.satydroid.saty_7eleven.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.satydroid.saty_7eleven.Logger
 import com.satydroid.saty_7eleven.R
+import com.satydroid.toaster.Toaster
 
 class GitActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,6 +15,7 @@ class GitActivity : AppCompatActivity() {
         mrNine()
     }
     private fun mrNine() {
+        Toaster.makeToast(context = this,message = "git activity")
     }
     private fun mrEight() {
         mrOne()
