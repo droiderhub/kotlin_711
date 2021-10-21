@@ -13,7 +13,12 @@ class GitActivity : AppCompatActivity() {
         setContentView(R.layout.activity_git)
         mrEight()
         mrNine()
+        stashChange()
     }
+
+    private fun stashChange() {
+    }
+
     private fun mrNine() {
         Toaster.makeToast(context = this,message = "git activity")
     }
